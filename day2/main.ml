@@ -45,7 +45,6 @@ let rec is_safe init prev nums gradient =
 let part1() =
     let lines = read_lines_from_files file in
     let nums = List.map return_nums lines in
-    List.iter (fun x -> Printf.printf "%d\n" (sum x)) nums;
     let safe = List.map (fun x -> is_safe 0 0 x 0) nums in
     Printf.printf "Result part 1: %d\n" (sum safe)
 ;;
