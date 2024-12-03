@@ -1,0 +1,26 @@
+# OPAM related files
+.opam/
+# OCaml build artifacts
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.o
+*.a
+*.native
+*.byte
+*.prof
+# Dune build artifacts
+/_build/
+# Editor-specific files
+.vscode/
+.idea/
+
+# Vim-related files
+*.swp
+*.swo
+# MacOS specific files
+.DS_Store
+# Backup files
+*.bak
+*.log
